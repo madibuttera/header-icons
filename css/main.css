@@ -11,6 +11,7 @@ html {
 
 body {
   background-color: #d05c2e;
+  margin: 0;
 }
 
 div {
@@ -33,6 +34,13 @@ a {
   color: #fff;
   text-decoration: none;
   font-size: 1.125rem;
+  padding: .5em 0;
+  display: flex;
+  padding-top: .4rem 0;
+}
+
+a:hover {
+  background-color: #a63f38;
 }
 
 .links {
@@ -41,12 +49,12 @@ a {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  margin: 0;
+  padding: 0;
 }
 
 .btn {
-
-}
-
-.btn hover {
-  background-color: #a63f38;
+  border: 1px solid #a63f38;
+  width: 33.333%;
+  list-style: 1px;
 }
