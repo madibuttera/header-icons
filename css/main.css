@@ -8,10 +8,12 @@ html {
   box-sizing: inherit;
 }
 
-
 body {
-  background-color: #d05c2e;
   margin: 0;
+}
+
+header {
+  background-color: #d05c2e;
 }
 
 div {
