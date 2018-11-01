@@ -37,7 +37,6 @@ a {
   padding: .5em 0;
   display: block;
   text-align: center;
-  padding-top: .4rem 0;
 }
 
 a:hover {
@@ -56,5 +55,4 @@ a:hover {
 .btn {
   border: 1px solid #a63f38;
   width: 33.333%;
-  list-style: 1px;
 }
