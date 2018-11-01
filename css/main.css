@@ -1,9 +1,52 @@
 html {
   box-sizing: border-box;
-  font-family: sans-serif;
   line-height: 1.5;
+  font-family: Merriweather, serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+
+body {
+  background-color: #d05c2e;
+}
+
+div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+h2 {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.grain {
+  width: 40px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.125rem;
+}
+
+.links {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+
+}
+
+.btn hover {
+  background-color: #a63f38;
 }
